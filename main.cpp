@@ -15,7 +15,7 @@ struct dispositivo
         int igual;
     } ;
  
-
+//Inico del programa
 int main()
 {
   vector<dispositivo>datos;
@@ -24,11 +24,11 @@ int main()
   string dispo;
 
    do{
-
+//Se crea un menú para que el usuario ingrese el dispositivo que quiere saber el consumo 
      cout<<"-----Menu------"<<endl;
       cout<<"Elija la opción de lo que desea realizar: "<<endl<<"1-Insertar un dispositivo"<<endl<<"2-Insertar Horas de consumo"<<endl<<"3-Calcular consumo total por dispoitisivo"<<endl<<"4-salir"<<endl;
       cin>>r;
-
+//Condición 1 el usuario digita las caracteristicas del disposi
     if (r=='1')
     {
       cout<<"Digite nombre del dispositivo: "<<endl;
