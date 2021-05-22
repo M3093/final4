@@ -1,11 +1,11 @@
 //Programa de cantidad de watts consumidos por dispositivo
 #include <iostream>
 #include <vector>
-
 using namespace std;
+//Declaración de variable
 int i,h;
 float total, prueba;
-
+//Creacion de estructura
 struct dispositivo
     {
         string nombre_dispositivo;
